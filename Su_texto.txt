@@ -1,0 +1,8 @@
+En el cuerpo de este archivo estará el texto que usted desee analizar.
+
+Si usted no renombra el archivo que quiere testear en este archivo y se lo pasa como argumento
+a la aplicación, solo analizará estas lineas que está leyendo.
+
+Muchas gracias.
+
+Damián.
