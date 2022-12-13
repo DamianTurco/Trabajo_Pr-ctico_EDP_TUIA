@@ -11,14 +11,14 @@ user@host:~$ git clone https://github.com/DamianTurco/Trabajo_Pr-ctico_EDP_TUIA.
 
 ![Alt text](https://github.com/DamianTurco/Trabajo_Pr-ctico_EDP_TUIA/blob/master/captura_clone.jpg)
 
-Una vez terminado el proceso, dirigirse al directorio Trabajo_Prctico_EDP_TUIA
+Una vez terminado el proceso, dirigirse al directorio Trabajo_Pr-ctico_EDP_TUIA
 
-user@host:~$ cd Trabajo_Prctico_EDP_TUIA
+user@host:~$ cd Trabajo_Pr-ctico_EDP_TUIA
 
 # Segundo paso
 Generar la imagen de la aplicación con el siguiente comando:
 
-user@host:~/Trabajo_Prctico_EDP_TUIA$ docker build -t ejemplo1:0 . (Enter)
+user@host:~/Trabajo_Pr-ctico_EDP_TUIA$ docker build -t ejemplo1:0 . (Enter)
 
 ![Alt text](https://github.com/DamianTurco/Trabajo_Pr-ctico_EDP_TUIA/blob/master/captura_build1.jpg)
 ![Alt text](captura_build2.jpg)
@@ -28,7 +28,7 @@ donde ejemplo1:0 es un nombre de ejemplo que se le puede indicar a la imagen, se
 # Tercer paso
 Ejecutar la aplicación con el siguiente comando:
 
-user@host:~/Trabajo_Prctico_EDP_TUIA$ docker run -it ejemplo1:0 (Enter)
+user@host:~/Trabajo_Pr-ctico_EDP_TUIA$ docker run -it ejemplo1:0 (Enter)
 
 ![Alt text](captura_run.jpg)
 
@@ -58,10 +58,9 @@ Texto.txt (Enter)
 
 Si desea analizar otro texto, ejecute el siguiente comando:
 
-user@host:~/Trabajo_Prctico_EDP_TUIA$ cp -f path del archivo/archivo Su_texto.txt (Enter)
+user@host:~/Trabajo_Pr-ctico_EDP_TUIA$ cp -f path del archivo/archivo Su_texto.txt (Enter)
 
 donde "path del archivo/" es la ruta absoluta del archivo, y "archivo" es el nombre y la extensión del archivo deseado
-*Nota: Asegurarse de que el directorio actual sea Trabajo_Prctico_EDP_TUIA y que el destino sea Su_texto.txt[literal]
+*Nota: Asegurarse de que el directorio actual sea Trabajo_Pr-ctico_EDP_TUIA y que el destino sea Su_texto.txt[literal]
 
 Una vez realizada esta tarea, repetir el segundo y tercer paso (Instalación y Ejecución). Luego elegir opción del menú interactivo y, en "Introduzca el archivo a analizar", ingrese Su_texto.txt (Enter)
-
