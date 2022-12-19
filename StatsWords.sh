@@ -15,7 +15,7 @@ if [ ! -e $archivo ] || [ ! -f $archivo ] || [ ! -w $archivo ]
    echo Argumento inválido. Debe ser un solo argumento, y que el archivo exista, sea regular y tenga permiso de lectura.
 else
 
-ARG=$(cat Texto.txt)
+ARG=$(cat $archivo)
 REGEX="^[a-zA-Z]*$" #Es una palabra común
 REGEX2='^[a-zA-Z]?$'
 REGEX3='^[\,:;]$'

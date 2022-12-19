@@ -15,7 +15,7 @@ if [ ! -e $archivo ] || [ ! -f $archivo ] || [ ! -w $archivo ]
    echo Argumento inválido. Debe ser un solo argumento, y que el archivo exista, sea regular y tenga permiso de lectura.
 else
   
-RUTA=Texto.txt
+RUTA=$(echo $archivo)
 ARG=$(cat $RUTA)
 REGEX="^[a-zA-Z]*$" #Es una palabra común
 MINIMO=4            #Es el minimo de caracteres que pide el ejercicio
